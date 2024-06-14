@@ -8,18 +8,20 @@
   </head>
   <body>
     <main>
-      <div class="screen1 hide">
+      <div class="screen1">
         <h1>Jogo de Adivinhação</h1>
         <p>Adivinhe um número entre 0 e 10</p>
         <form>
-          <input type="number" />
-          <button>Tentar</button>
+          <input id="Input" type="number" />
+          <button id="btnTry">Tentar</button>
         </form>
       </div>
-      <div class="screen2">
-        <h2>Acertou em 3 vezes</h2>
-        <button>Jogar Novamente</button>
+
+      <div class="screen2 hide">
+        <h2></h2>
+        <button id="btnRst">Jogar Novamente</button>
       </div>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>
